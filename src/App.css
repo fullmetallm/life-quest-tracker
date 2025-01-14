@@ -1,0 +1,17 @@
+.App {
+  text-align: left;
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input[type="text"] {
+  padding: 4px;
+  border-radius: 4px;
+}
