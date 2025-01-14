@@ -6,11 +6,11 @@ function App() {
   const [stats, setStats] = useState(() => {
     const savedStats = localStorage.getItem('characterStats');
     return savedStats ? JSON.parse(savedStats) : {
-      hp: 80,
-      atk: 65,
-      def: 70,
-      mp: 60,
-      agi: 75
+      hp: 0,
+      atk: 0,
+      def: 0,
+      mp: 0,
+      agi: 0
     };
   });
 
